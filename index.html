@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; img-src 'self' data: https:; media-src 'self'; script-src 'self'; connect-src https://api.web3forms.com; form-action https://api.web3forms.com; base-uri 'self'; object-src 'none'">
+<title>Plan Your Trip In Nature</title>
+<link rel="stylesheet" href="css/style.css">
+<!-- <link rel="stylesheet" href="css/responsive.css"> -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<!-- ===========================
+Floating Contact Buttons
+============================ -->
+<div class="floating-contact">
+<a href="https://wa.me/919113213626" class="float-btn whatsapp" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-whatsapp"></i>
+</a>
+<a href="tel:+918762512358" class="float-btn call">
+<i class="fas fa-phone"></i>
+</a>
+</div>
+<!-- NATURE JOURNEY LOADER -->
+<div id="natureLoader">
+
+    <div class="loader-scene">
+
+        <!-- Nature icon -->
+        <div class="loader-leaf">
+            <i class="fa-solid fa-leaf"></i>
+        </div>
+
+        <!-- Animated journey path -->
+        <div class="journey-path"></div>
+
+        <!-- Logo -->
+        <img
+            src="../assets/logo1.jpg"
+            alt="Plan Your Trip In Nature"
+            class="loader-logo"
+        >
+
+        <h1>PLAN YOUR TRIP</h1>
+        <h2>IN NATURE</h2>
+
+        <p id="loaderMessage">
+            Finding peaceful stays...
+        </p>
+
+        <div class="loader-progress">
+            <span></span>
+        </div>
+
+        <small id="loaderPercent">0%</small>
+
+    </div>
+
+</div>
+<!-- ===========================
+Navbar
+============================ -->
+<header class="navbar" id="navbar">
+<div class="logo">
+<img src="../assets/logo1.jpg" alt="Plan Your Trip In Nature logo">
+<div>
+<h2>PLAN YOUR TRIP</h2>
+<p><b>IN NATURE</b></p>
+</div>
+</div>
+<nav id="menu">
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#stays">Stays</a>
+<a href="#activities">Activities</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="menu-btn" id="menuBtn">
+<i class="fas fa-bars"></i>
+</div>
+</header>
+<!-- ===========================
+Hero
+============================ -->
+<section class="hero">
+    <!-- Background Video -->
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="../assets/video/hero.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- Dark Overlay -->
+    <div class="hero-overlay"></div>
+    <!-- Hero Content -->
+    <div class="hero-content">
+        <h1>
+            Discover Beautiful
+            <span id="typing"></span>
+        </h1>
+        <p>
+            Book the best Nature Stays in
+            <strong>Sakleshpur</strong>
+            &
+            <strong>Chikkamagaluru</strong>
+            with the lowest prices.
+            Luxury • Family • Couples • Adventure
+        </p>
+        <div class="hero-buttons">
+            <a href="#stays" class="primary-btn">
+                Explore Stays
+            </a>
+            <a href="#contact" class="secondary-btn">
+                Contact Us
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===========================
+About Preview
+============================ -->
+<section class="about-preview" id="about">
+<div class="about-left">
+<img src="../assets/place/nature.webp" alt="Nature Stay">
+</div>
+<div class="about-right">
+<h5>
+ABOUT US
+</h5>
+<h2>
+Escape Into Nature
+</h2>
+<p>
+Plan Your Trip In Nature helps travelers discover the most peaceful nature stays across Sakleshpur and Chikkamagaluru.
+From luxury villas to affordable homestays, we carefully select properties surrounded by coffee estates, waterfalls, misty mountains and breathtaking landscapes.
+</p>
+<ul>
+<li>✔ Verified Nature Stays</li>
+<li>✔ Best Price Guarantee</li>
+<li>✔ Instant WhatsApp Booking</li>
+<li>✔ Family & Couple Friendly</li>
+<li>✔ Adventure Activities</li>
+</ul>
+<a href="#stays" class="primary-btn">
+Explore Now
+</a>
+</div>
+</section>
+<!-- ========================================= -->
+<!-- FEATURED STAYS -->
+<!-- ========================================= -->
+<section class="featured-stays" id="stays">
+    <div class="section-title">
+        <h5>OUR BEST STAYS</h5>
+        <h2>Featured Nature Stays</h2>
+        <p>Handpicked stays for unforgettable experiences.</p>
+    </div>
+    <div class="stay-grid">
+        <!-- Card 1 -->
+        <div class="stay-card">
+            <div class="stay-image">
+                <img src="../assets/1.jpg" alt="Achanahalli Nature Stay">
+            </div>
+            <div class="stay-content">
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                    <span>(4.7)</span>
+                </div>
+                <h3>Achanahalli Nature Stay</h3>
+                <p>
+                    📍 Sakleshpur
+                </p>
+                <a href="ANS2.html" class="view-btn">
+                    View Details
+                </a>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="stay-card">
+            <div class="stay-image">
+                <img src="../assets/outdoor.jpeg" alt="Niruttara Homestay">
+            </div>
+            <div class="stay-content">
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                    <span>(4.8)</span>
+                </div>
+                <h3>Niruttara Homestay</h3>
+                <p>
+                    📍 Chikkamagaluru
+                </p>
+                <a href="nir.html" class="view-btn">
+                    View Details
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ========================================= -->
+<!-- WHY CHOOSE US -->
+<!-- ========================================= -->
+<section class="why-us">
+    <div class="section-title">
+        <h5>WHY CHOOSE US</h5>
+        <h2>Your Perfect Nature Vacation</h2>
+    </div>
+    <div class="why-grid">
+        <div class="why-card">
+            <i class="fas fa-leaf"></i>
+            <h3>Verified Stays</h3>
+            <p>
+                Every property is carefully inspected for comfort and safety.
+            </p>
+        </div>
+        <div class="why-card">
+            <i class="fas fa-tags"></i>
+            <h3>Best Prices</h3>
+            <p>
+                Direct booking with no hidden charges.
+            </p>
+        </div>
+        <div class="why-card">
+            <i class="fas fa-headset"></i>
+            <h3>24×7 Support</h3>
+            <p>
+                Assistance before and throughout your trip.
+            </p>
+        </div>
+        <div class="why-card">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3>Local Experts</h3>
+            <p>
+                We recommend the best attractions nearby.
+            </p>
+        </div>
+        <div class="why-card">
+            <i class="fas fa-star"></i>
+            <h3>Top Rated</h3>
+            <p>
+                Hundreds of happy travelers trust us.
+            </p>
+        </div>
+        <div class="why-card">
+            <i class="fas fa-bolt"></i>
+            <h3>Instant Booking</h3>
+            <p>
+                Reserve your stay within minutes.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- ========================================= -->
+<!-- ACTIVITIES -->
+<!-- ========================================= -->
+<section class="activities" id="activities">
+    <div class="section-title">
+        <h5>EXPERIENCE</h5>
+        <h2>Popular Activities</h2>
+        <p>Adventure, relaxation and unforgettable memories.</p>
+    </div>
+    <div class="activity-grid">
+        <div class="activity-card">
+            <i class="fas fa-hiking"></i>
+            <h3>Trekking</h3>
+            <p>Explore beautiful hills and hidden forest trails.</p>
+        </div>
+        <div class="activity-card">
+            <i class="fas fa-fire"></i>
+            <h3>Campfire</h3>
+            <p>Enjoy cozy evenings with music and delicious food.</p>
+        </div>
+        <div class="activity-card">
+            <i class="fas fa-water"></i>
+            <h3>Waterfalls</h3>
+            <p>Visit breathtaking waterfalls around Sakleshpur.</p>
+        </div>
+        <div class="activity-card">
+            <i class="fas fa-mountain"></i>
+            <h3>Mountain View</h3>
+            <p>Wake up to mist-covered mountains every morning.</p>
+        </div>
+        <div class="activity-card">
+            <i class="fas fa-mug-hot"></i>
+            <h3>Coffee Estate Walk</h3>
+            <p>Walk through lush coffee plantations.</p>
+        </div>
+        <div class="activity-card">
+            <i class="fas fa-camera"></i>
+            <h3>Photography</h3>
+            <p>Capture unforgettable moments in nature.</p>
+        </div>
+    </div>
+</section>
+<!-- ========================================= -->
+<!-- STATISTICS -->
+<!-- ========================================= -->
+<section class="stats-section">
+    <div class="stat-box">
+        <i class="fas fa-hotel"></i>
+        <h2 class="counter" data-target="10">0</h2>
+        <p>Premium Stays</p>
+    </div>
+    <div class="stat-box">
+        <i class="fas fa-users"></i>
+        <h2 class="counter" data-target="1500">0</h2>
+        <p>Happy Guests</p>
+    </div>
+    <div class="stat-box">
+        <i class="fas fa-map-marker-alt"></i>
+        <h2 class="counter" data-target="25">0</h2>
+        <p>Tourist Places</p>
+    </div>
+    <div class="stat-box">
+        <i class="fas fa-star"></i>
+        <h2>4.9★</h2>
+        <p>Customer Rating</p>
+    </div>
+</section>
+<!-- ========================================= -->
+<!-- NEARBY ATTRACTIONS -->
+<!-- ========================================= -->
+<section class="attractions">
+    <div class="section-title">
+        <h5>EXPLORE MORE</h5>
+        <h2>Nearby Tourist Attractions</h2>
+    </div>
+    <div class="attraction-grid">
+        <div class="attraction-card">
+            <img src="../assets/place/1.jpg" alt="Manjarabad Fort">
+            <h3>Manjarabad Fort</h3>
+        </div>
+        <div class="attraction-card">
+            <img src="../assets/devasthana.webp" alt="Bettadabhaireshwara Temple">
+            <h3>Bettadabhaireshwara temple</h3>
+        </div>
+         <div class="attraction-card">
+            <img src="../assets/place/bisle.jpg" alt="Bisle Ghat">
+            <h3>Bisle Ghat</h3>
+        </div>
+        <div class="attraction-card">
+            <img src="../assets/place/2.jpg" alt="Mullayanagiri Peak">
+            <h3>Mullayanagiri Peak</h3>
+        </div>
+        <div class="attraction-card">
+            <img src="../assets/place/3.jpg" alt="Hebbe Falls">
+            <h3>Hebbe Falls</h3>
+        </div>
+        <div class="attraction-card">
+            <img src="../assets/place/4.jpg" alt="Honnamanahala">
+            <h3>Honnamanahala</h3>
+        </div>
+        <div class="attraction-card">
+            <img src="../assets/place/5.jpg" alt="Bindiga Temple">
+            <h3>Bindiga temple</h3>
+        </div>
+        <div class="attraction-card">
+            <img src="../assets/kemma.png" alt="kemmangundi">
+            <h3>kemmangundi</h3>
+        </div>
+    </div>
+</section>
+<!-- ========================================= -->
+<!-- CALL TO ACTION -->
+<!-- ========================================= -->
+<section class="cta">
+    <div class="cta-content">
+        <h2>Ready For Your Next Nature Adventure?</h2>
+        <p>
+            Book your dream stay today and experience the beauty of Karnataka.
+        </p>
+        <a href="#contact" class="primary-btn">
+            Book Your Stay
+        </a>
+    </div>
+</section>
+<!-- ========================================= -->
+<!-- FAQ SECTION -->
+<!-- ========================================= -->
+<section class="faq" id="faq">
+    <div class="section-title">
+        <h5>FAQ</h5>
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know before booking.</p>
+    </div>
+    <div class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question">
+                Is food included?
+                <i class="fas fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Yes. Most of our stays provide delicious homemade
+                    Malnad cuisine. Please check each property's details.
+                </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                Can couples book?
+                <i class="fas fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Absolutely! We have several couple-friendly
+                    homestays with complete privacy.
+                </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                Are pets allowed?
+                <i class="fas fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Some stays allow pets. Please contact us before booking.
+                </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                How can I book?
+                <i class="fas fa-plus"></i>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Click "Book Now", WhatsApp us, or call directly.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ========================================= -->
+<!-- CONTACT -->
+<!-- ========================================= -->
+<section class="contact-section" id="contact">
+<div class="section-title">
+<h5>CONTACT</h5>
+<h2>Let's Plan Your Trip</h2>
+<p>We would love to help you plan your perfect nature vacation.</p>
+</div>
+<div class="contact-wrapper">
+<div class="contact-info">
+<h3>Contact Information</h3>
+<div class="contact-box">
+<i class="fas fa-phone"></i>
+<div>
+<h4>Phone</h4>
+<p>+91 8088103042</p>
+</div>
+</div>
+<div class="contact-box">
+<i class="fab fa-whatsapp"></i>
+<div>
+<h4>WhatsApp</h4>
+<p>+91 9113213626</p>
+</div>
+</div>
+<div class="contact-box">
+<i class="fas fa-envelope"></i>
+<div>
+<h4>Email</h4>
+<p>planyourtripinnature@gmail.com</p>
+</div>
+</div>
+<div class="contact-box">
+<i class="fas fa-location-dot"></i>
+<div>
+<h4>Location</h4>
+<p>Sakleshpur & Chikkamagaluru</p>
+</div>
+</div>
+</div>
+<div class="contact-form">
+<form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="5aef8f67-ecaa-499c-b04c-af393a9c1a59">
+    <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        required
+    >
+    <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        required
+    >
+    <input
+        type="tel"
+        name="phone"
+        placeholder="Phone"
+        required
+    >
+        
+    <select
+        name="stay"
+        required
+    >
+        <option value="">Select Stay</option>
+        <option>Homestay</option>
+        <option>Resort</option>
+        <option>Camping</option>
+    </select>
+    <textarea
+        name="message"
+        placeholder="Message"
+        required
+    ></textarea>
+    <button
+        id="submitBtn"
+        type="submit"
+    >
+        Send Message
+    </button>
+</form>
+</div>
+</div>
+</section>
+<!-- ========================================= -->
+<!-- NEWSLETTER -->
+<!-- ========================================= -->
+<section class="newsletter">
+<div class="newsletter-content">
+<h2>
+Subscribe To Our Newsletter
+</h2>
+<p>
+Get offers, travel tips and exclusive discounts.
+</p>
+<form id="newsletterForm">
+<input
+type="email"
+id="newsletterEmail"
+placeholder="Enter your email"
+required>
+<button
+type="submit"
+id="newsletterBtn">
+Subscribe
+</button>
+</form>
+</div>
+</section>
+<!-- ========================================= -->
+<!-- FOOTER -->
+<!-- ========================================= -->
+<footer class="footer">
+<div class="footer-container">
+<div class="footer-column">
+<img src="../assets/logo1.jpg" class="footer-logo" alt="Plan Your Trip In Nature logo">
+<h3>PLAN YOUR TRIP IN NATURE</h3>
+<p>
+Explore Karnataka's finest nature stays.
+Luxury, comfort and unforgettable memories.
+</p>
+</div>
+<div class="footer-column">
+<h3>
+Quick Links
+</h3>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#stays">Stays</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<div class="footer-column">
+<h3>
+Stay Types
+</h3>
+<ul>
+<li>Luxury Stay</li>
+<li>Family Stay</li>
+<li>Couple Stay</li>
+<li>Dormitory</li>
+<li>Adventure Stay</li>
+</ul>
+</div>
+<div class="footer-column">
+<h3>
+Follow Us
+</h3>
+<div class="footer-social">
+<a href="https://www.facebook.com/share/14pFsz2HGz2/"><i class="fab fa-facebook-f"></i></a>
+<a href="https://www.instagram.com/planyourtripin_nature/"><i class="fab fa-instagram"></i></a>
+<a href="https://wa.me/919113213626"><i class="fab fa-whatsapp"></i></a>
+<a href="https://www.youtube.com/@planyourtripinnature"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+</div>
+<hr>
+<div class="copyright">
+<p>@Team Plan Your Trip In Nature</p>
+<p>
+© 2026 Plan Your Trip In Nature.
+All Rights Reserved.
+</p>
+</div>
+</footer>
+<!-- Your JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
